@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+mysqlclient = "*"
+numpy = "*"
+datetime = "*"
+cmake = "*"
+wheel = "*"
+opencv-python = "*"
+face-recognition = "*"
+pillow = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+mediapipe = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

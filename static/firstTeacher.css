@@ -1,0 +1,154 @@
+
+.links1 a
+{
+    margin-left: 4.5rem;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    padding-top: 5px;
+    transition: transform 0.3s ease;  
+    background-color: #9570FD;
+}
+
+.links1 ul
+{
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.links1 a:hover
+{
+    transform: scale(1.2);
+}
+.profile
+{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.remove
+{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 4.5rem;
+    border: none;
+}
+
+.remove:hover
+{
+    transform: scale(1.2);
+}
+
+.centerSection
+{
+    background-color: #9570fd;
+    width: 100px;
+    position:absolute;
+    top: 20%;
+}
+
+.big-wrapper1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    overflow:hidden;
+}
+
+.showcase-area1 .container1{
+    display: grid; /*This should be grid to display the following function*/
+    grid-template-columns: 350px 350px;/*Divides the middel space into the two equal parts*/
+    align-items: center; 
+    justify-content: center;
+    margin-top: 0px;
+   
+}
+
+.timetable,.testEvaluation,
+.mentorSection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    border: 1px solid #9570FD;
+    margin-right: 30px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+button,
+.container1 a
+{
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.1);
+    height: 38px;
+    width: 280px;
+    text-align: center;
+    padding-top: 5px;
+    transition: transform 0.3s ease;  
+    background-color: #9570FD;
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: Poppins;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.image
+{
+    height: 230px;
+}
+
+.container1 a:hover{
+    transform: scale(1.1);
+}
+
+.dropdown-content
+{
+
+    width: 150px;
+    margin-left: 150px;
+    justify-content: start;
+    display: none;
+    position: absolute;
+    box-shadow: 1px 1px 1px 0px rgba(255,255,255,0.1);
+}
+
+.dropdown-content a
+{
+
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+}
+
+.remove:hover .dropdown-content
+{
+display: block;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
